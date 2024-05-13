@@ -24,34 +24,67 @@
                     <th>N°</th>
                     <th>Tarea</th>
                     <th>Estado</th>
-                    <th>Borrar</th>
+                    <th>Borrar tarea</th>
                 </tr>
             </thead>
             <tbody>  
                 <tr>
                     <td>01</td>
                     <td></td>
-                    <td>Completada<input type="radio" id="taskStatus1" name="taskStatus1"/> No completada<input type="radio" id="taskStatus1" name="taskStatus1"/>
-                    <td><button onclick="delTask1">Borrar tarea</button></td>
+                    <!-- Codigo para configurar ratio button en lugar de dropdown menu
+                        <td>Completada<input type="radio" id="taskStatus1" name="taskStatus1"/> No completada<input type="radio" id="taskStatus1" name="taskStatus1"/> -->
+                    <td>
+                        <select id="dropdown">
+                            <option value="selectStat">Seleccione una opcion</option>
+                            <option value="compTask1">Completada</option>
+                            <option value="nCompTask1">No completada</option>
+                          </select>
+                    </td>
+                    <td><button onclick="delTask1">Borrar</button></td>
                 </tr>  
                 <tr>
                     <td>02</td>
                     <td></td>
-                    <td>Completada<input type="radio" id="taskStatus2" name="taskStatus2"/> No completada<input type="radio" id="taskStatus2" name="taskStatus2"/>
-                    <td><button onclick="delTask2">Borrar tarea</button></td>
+                    <!-- Codigo para configurar ratio button en lugar de dropdown menu
+                    <td>Completada<input type="radio" id="taskStatus2" name="taskStatus2"/> No completada<input type="radio" id="taskStatus2" name="taskStatus2"/> -->
+                        <td>
+                            <select id="dropdown">
+                                <option value="selectStat">Seleccione una opcion</option>
+                                <option value="compTask2">Completada</option>
+                                <option value="nCompTask2">No completada</option>
+                              </select>
+                        </td>
+                    <td><button onclick="delTask2">Borrar</button></td>
                 </tr>  
                 <tr>
                     <td>03</td>
                     <td></td>
-                    <td>Completada<input type="radio" id="taskStatus3" name="taskStatus3"/> No completada<input type="radio" id="taskStatus3" name="taskStatus3"/>
-                    <td><button onclick="delTask3">Borrar tarea</button></td>
+                    <!-- Codigo para configurar ratio button en lugar de dropdown menu
+                    <td>Completada<input type="radio" id="taskStatus3" name="taskStatus3"/> No completada<input type="radio" id="taskStatus3" name="taskStatus3"/> -->
+                        <td>
+                            <select id="dropdown">
+                                <option value="selectStat">Seleccione una opcion</option>
+                                <option value="compTask3">Completada</option>
+                                <option value="nCompTask3">No completada</option>
+                              </select>
+                        </td>
+                    <td><button onclick="delTask3">Borrar</button></td>
                 </tr>  
                 <tr>
                     <td>04</td>
                     <td></td>
-                    <td>Completada<input type="radio" id="taskStatus4" name="taskStatus4"/> No completada<input type="radio" id="taskStatus4" name="taskStatus4"/>
-                    <td><button onclick="delTask4">Borrar tarea</button></td>
+                    <!-- Codigo para configurar ratio button en lugar de dropdown menu
+                    <td>Completada<input type="radio" id="taskStatus4" name="taskStatus4"/> No completada<input type="radio" id="taskStatus4" name="taskStatus4"/> -->
+                        <td>
+                            <select id="dropdown">
+                                <option value="selectStat">Seleccione una opcion</option>
+                                <option value="compTask4">Completada</option>
+                                <option value="nCompTask4">No completada</option>
+                              </select>
+                        </td>
+                    <td><button onclick="delTask4">Borrar</button></td>
                 </tr>  
+
 
             </tbody>
         </table>
