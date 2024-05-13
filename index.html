@@ -18,12 +18,43 @@
         <h3 class="h3title">En esta aplicacion puedes registrar hasta un maximo de 4 tareas simultaneamente</h3>
     </div>
     <div class="listbox">
-        <ol class="tasks">
-            <li>- </li> <button onclick="delTask1">Delete task</button> <input type="checkbox" id="task1" name="task1">
-            <li>- </li> <button onclick="delTask2">Delete task</button> <input type="checkbox" id="task2" name="task2">
-            <li>- </li> <button onclick="delTask3">Delete task</button> <input type="checkbox" id="task3" name="task3">
-            <li>- </li> <button onclick="delTask4">Delete task</button> <input type="checkbox" id="task4" name="task4">
-        </ol>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Tarea</th>
+                    <th>Estado</th>
+                    <th>Borrar</th>
+                </tr>
+            </thead>
+            <tbody>  
+                <tr>
+                    <td>01</td>
+                    <td></td>
+                    <td>Completada<input type="radio" id="taskStatus1" name="taskStatus1"/> No completada<input type="radio" id="taskStatus1" name="taskStatus1"/>
+                    <td><button onclick="delTask1">Borrar tarea</button></td>
+                </tr>  
+                <tr>
+                    <td>02</td>
+                    <td></td>
+                    <td>Completada<input type="radio" id="taskStatus2" name="taskStatus2"/> No completada<input type="radio" id="taskStatus2" name="taskStatus2"/>
+                    <td><button onclick="delTask2">Borrar tarea</button></td>
+                </tr>  
+                <tr>
+                    <td>03</td>
+                    <td></td>
+                    <td>Completada<input type="radio" id="taskStatus3" name="taskStatus3"/> No completada<input type="radio" id="taskStatus3" name="taskStatus3"/>
+                    <td><button onclick="delTask3">Borrar tarea</button></td>
+                </tr>  
+                <tr>
+                    <td>04</td>
+                    <td></td>
+                    <td>Completada<input type="radio" id="taskStatus4" name="taskStatus4"/> No completada<input type="radio" id="taskStatus4" name="taskStatus4"/>
+                    <td><button onclick="delTask4">Borrar tarea</button></td>
+                </tr>  
+
+            </tbody>
+        </table>
     </div>
 </body>
 <!-- aqui finaliza el body -->
