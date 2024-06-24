@@ -15,7 +15,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    background-color: rgb(12, 42, 66);
+    background-color: #4B276F;
     color: aliceblue;
 }
 
@@ -32,7 +32,7 @@ h5 {
 
 /* DATOS */
 .datos {
-    background-color: rgb(12, 42, 66);
+    background-color: #4B276F;
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -64,7 +64,7 @@ h5 {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(6, 99, 212);
+    background-color: #2B8000;
     color: #fff;
     max-height: 110px;
     width: 50%;
@@ -94,10 +94,11 @@ h5 {
 
 /* TAREAS */
 .contenedor .tareas {
-    padding: 10px;
+    padding-top: 10px;
     margin: 10px;
     background-color: rgb(215, 236, 250);
-    width: 50%;
+    width: 54%;
+    max-width: 1000px;
 }
 
 .contenedor .item-tarea {
@@ -105,7 +106,11 @@ h5 {
     justify-content: space-between;
     background-color: #ffffff;
     padding: 10px;
-    margin: 10px 2px;
+    margin: 10px 15px;
+}
+.contenedor .item-tarea p {
+    display: flex;
+    align-items: center;
 }
 
 .eliminar {
@@ -136,11 +141,3 @@ h5 {
     transform: scale(1.3);
 }
 
-
-@media (max-width: 600px) {
-    .contenedor {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 15px;
-    }
-}
