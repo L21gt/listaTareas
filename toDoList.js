@@ -56,8 +56,8 @@ function agregarHTML() {
                     `<span>${item.tarea}</span>`
                 )}</p>
                 <div class="botones">
-                    <button class="eliminar" data-id="${item.id}">x</button>
-                    <button class="completada" data-id="${item.id}">?</button>
+                    <button class="eliminar" data-id="${item.id}">Eliminar</button>
+                    <button class="completada" data-id="${item.id}">Completada</button>
                 </div>
             `
             tareas.appendChild(elemento)
